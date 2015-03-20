@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{% extends "base.html" %}
+  {% block content %}
+      {% for post in posts %}
+      <h2><a href="/blog/{{ post.id }}" style="color:#00f0ff">{{ post.title }}</a></h2>
+      {% endfor %}
+  {% endblock %}
+<body>
+
+</body>
+</html>

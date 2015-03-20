@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% extends "base.html" %}
+  {% block content %}
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.timestamp }}</p>
+      <p>{{ p.body }}</p>
+  {% endblock %}
+</body>
+</html>
